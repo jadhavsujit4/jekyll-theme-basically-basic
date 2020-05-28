@@ -109,4 +109,4 @@ defaults:
       type: recipes
     values:
       layout: gallery
-      read_time: true
+      read_time: false
