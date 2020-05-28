@@ -108,5 +108,5 @@ defaults:
       path: "_recipes"
       type: recipes
     values:
-      layout: post
+      layout: gallery
       read_time: true
