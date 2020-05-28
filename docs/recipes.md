@@ -6,9 +6,11 @@ images:
   - image_path: /images/cakes/my2.jpg
     title: Birthday Cake
 ---
-<ul>
+<ul style="list-style: none; padding: 0;">
   {% for image in page.images %}
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+    <li style="display: inline-block; width: 33%;" >
+        <img style = "width: 100%;" src="{{ image.image_path }}" alt="{{ image.title}}"/>
+    </li>
   {% endfor %}
 </ul>
 
